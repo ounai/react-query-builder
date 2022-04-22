@@ -48,7 +48,9 @@ export type BuilderFieldOperator =
   | 'BETWEEN'
   | 'NOT_BETWEEN'
   | 'LIKE'
-  | 'NOT_LIKE';
+  | 'NOT_LIKE'
+  | 'REGEX'
+  | 'NOT_REGEX';
 
 export type BuilderGroupValues = 'AND' | 'OR';
 

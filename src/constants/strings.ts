@@ -27,6 +27,8 @@ export interface Strings {
     NOT_BETWEEN?: string;
     LIKE?: string;
     NOT_LIKE?: string;
+    REGEX?: string;
+    NOT_REGEX?: string;
   };
 }
 
@@ -58,6 +60,8 @@ export const strings: Strings = {
     BETWEEN: 'Between',
     NOT_BETWEEN: 'Not between',
     LIKE: 'Like',
-    NOT_LIKE: 'Not like'
+    NOT_LIKE: 'Not like',
+    REGEX: 'Matches regular expression',
+    NOT_REGEX: 'Does not match regular expression',
   },
 };

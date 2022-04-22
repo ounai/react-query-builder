@@ -104,6 +104,8 @@ export const fields: BuilderFieldProps[] = [
       'BETWEEN',
       'LIKE',
       'NOT_LIKE',
+      'REGEX',
+      'NOT_REGEX',
     ],
   },
   {
