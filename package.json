@@ -1,5 +1,5 @@
 {
-  "name": "@vojtechportes/react-query-builder",
+  "name": "@ounai/react-query-builder",
   "version": "0.4.4",
   "license": "MIT",
   "keywords": [
@@ -18,10 +18,10 @@
     "name": "Vojtech Portes",
     "url": "https://www.github.com/vojtechportes"
   },
-  "homepage": "https://github.com/vojtechportes/react-query-builder",
+  "homepage": "https://github.com/ounai/react-query-builder",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vojtechportes/react-query-builder.git"
+    "url": "https://github.com/ounai/react-query-builder.git"
   },
   "main": "dist/index.js",
   "module": "dist/react-query-builder.esm.js",
@@ -79,12 +79,12 @@
     "stylelint-processor-styled-components": "^1.8.0",
     "tsdx": "^0.7.2",
     "tslib": "^1.10.0",
-    "typescript": "^3.5.3",
-    "uniqid": "^5.0.3",
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-eslint-rules": "^5.4.0",
     "tslint-react": "^4.0.0",
+    "typescript": "^3.5.3",
+    "uniqid": "^5.0.3",
     "webpack": "^4.31.0"
   },
   "peerDependencies": {
@@ -93,8 +93,8 @@
   },
   "dependencies": {
     "Builder": "^2.8.1",
-    "uniqid": "^5.0.3",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.3.2",
+    "uniqid": "^5.0.3"
   },
   "jest": {
     "collectCoverage": true,
